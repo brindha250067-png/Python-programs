@@ -1,0 +1,13 @@
+file = open("sample.txt", "r")
+
+content = file.read()
+
+line_count = len(content.split("\n"))
+word_count = len(content.split())
+char_count = len(content)
+
+print("Lines =", line_count)
+print("Words =", word_count)
+print("Characters =", char_count)
+
+file.close()
