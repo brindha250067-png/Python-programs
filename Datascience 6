@@ -1,0 +1,13 @@
+try:
+    amount = float(input("Enter amount: "))
+    years = float(input("Enter years: "))
+
+    interest = amount / years
+
+    print("Interest =", interest)
+
+except ZeroDivisionError:
+    print("Years cannot be zero!")
+
+except ValueError:
+    print("Invalid input!")
