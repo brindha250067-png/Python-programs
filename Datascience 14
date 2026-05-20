@@ -1,0 +1,12 @@
+import pandas as pd
+
+data = {
+    "Name": ["Arun", "Priya"],
+    "Marks": [85, 90]
+}
+
+df = pd.DataFrame(data)
+
+df["Grade"] = ["A", "A+"]
+
+print(df)
