@@ -1,0 +1,5 @@
+f = open("sample.txt", "a")
+f.write("\nWelcome")
+f.close()
+
+print("Data appended successfully")
