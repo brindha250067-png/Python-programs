@@ -1,0 +1,5 @@
+# Tuple Example
+fruits = ("Apple", "Banana", "Mango")
+
+print("Tuple:", fruits)
+print("Second element:", fruits[1])
